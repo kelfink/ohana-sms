@@ -9,6 +9,7 @@ gem 'ohanakapa', '~> 1.1.1'
 gem 'puma'
 gem 'rails', '~> 4.2.0'
 gem 'twilio-ruby'
+gem 'bundler'
 
 group :production do
   gem 'dalli'

@@ -70,7 +70,8 @@ class Messenger
   end
 
   def phone
-    "#{I18n.t('phone')}: #{location.phones.first.number}"
+    ##"#{I18n.t('phone')}: #{location.phones.first.number}"
+    "#{I18n.t('phone')}: #{(location.phones.empty? ? "" : location.phones.first.number)}"
   end
 
   def address
